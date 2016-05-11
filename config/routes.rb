@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   resources :articles do
     resources :recommendations, only: [:new, :create]
   end
+  get 'weather'        => 'weather#show'
+  get 'weather/update' => 'weather#update'
 
   require 'sidekiq/web'
   mount Sidekiq::Web => '/sidekiq'
