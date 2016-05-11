@@ -50,3 +50,4 @@ gem 'sidekiq'
 gem 'sinatra', require: nil
 gem 'recaptcha', require: 'recaptcha/rails'
 gem 'redis-rails'
+
