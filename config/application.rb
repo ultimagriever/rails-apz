@@ -39,6 +39,6 @@ module RailsApz
     config.active_job.queue_adapter = :sidekiq
     config.cache_store = :redis_store
 
-    config.web_console.development_only = false
+    #config.web_console.development_only = false
   end
 end
