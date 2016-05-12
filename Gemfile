@@ -53,3 +53,5 @@ gem 'redis-rails'
 
 gem 'codeclimate-test-reporter', group: :test, require: nil
 
+gem 'unicorn'
+gem 'rails_12factor'
